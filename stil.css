@@ -1,0 +1,70 @@
+h1,h2,h3 {color: #B3153F;}
+/* vsi trije naslovi, ki so označeni z h1, h2, h3 so obarvani v barvi #B3153F*/
+h1 {
+	text-align: center;
+	font-size: 35px;
+	}
+/* v prvem naslovu, ki je v HTML-ju označen z h1, pa spremenimo na velikost na 35 px,
+barva naslova je nastavljena na #B3153F in naslov je poravnan tako, da se nahaja v centru */
+
+h2, h3 {
+		text-align: left;
+		font-size:15px;
+		}
+/* tako naslov h2, in naslov h3 sta poravnana na levo stran in imata velikost pisave 15px*/
+
+		p {
+			color: #111111;
+			font-style: "Times New Roman";
+		}
+/* odstavki so obarvani v barvo #111111 in so napisani v pisavi "Times New Roman" */
+img {float:center;}
+/* slike so poravnane na sredino */
+a {text-decoration: none;
+	}
+/* tekst, ki deluje kot linki, nimajo nobenih dodatkov, ki bi podčrtali link, zato so brez dodatkov*/  
+body {background-color: #FFFFFF;}
+/* v body-ju je barva ozadja nastavljena na #FFFFFF */
+header {background-color: #FFF3CC;
+		color: blue;
+		text-align: center;
+		padding: 5px;
+}
+/* v glavi je barva ozadja nastavljena na #FFF3CC, barva je nastavljena na modro, tekst je nastavljen v center in velikost pisave je 5px*/
+nav {
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	background-color: #FEF2E0;
+	height: 1050px;
+	width: 15%;
+	float: left;
+	padding: 5px;
+}
+/* v nav se poda višina črte, ki je nastavljena na 50px, velikost pisave je 20px, 
+tekst je postavljen v sredino, barva ozadja je nastavljena na #FEF2E0, 
+višina je določena v 1050 slikovnih pikslih, širina pa je nastavljena na 15%
+float določa, ali naj element lebdi v levo, desno ali sploh ne in v tem primeru lebdi levo
+lastnost padding se uporablja za ustvarjanje prostora okoli vsebine elementa
+znotraj poljubnih definiranih meja in je nastavljena na 5px*/
+
+section {
+		float: left;
+		width: 70%;
+		padding: 10px;
+}
+/* v sectionu float določa, da element lebdi na levo
+širina je nastavljena na 70%
+in padding se uporablja za ustvarjanje prostora okoli vsebine elementa
+in je nastavljeno na 10px */
+footer {
+		background-color: #FFFFFF;
+		color: #000000;
+		text-align: center;
+		padding: 2px;
+}
+/* v footerju je nastavljena barva ozadja na #FFFFFF
+barva besedila je nastavljena na #000000, 
+tekst je nastavljen na sredino, 
+in še padding se uporablja za ustvarjanje prostora okoli vsebine elementa, 
+in v tem primeru je nastavljena na 3px*/ 
